@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./index.css";
 
-const API_KEY = "7f8e81002b7e4ef29e8b195bae65802f"; // замени на свой ключ
+const API_KEY = "7f8e81002b7e4ef29e8b195bae65802f"; 
 
 interface WeatherData {
   name: string;
