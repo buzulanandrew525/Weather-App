@@ -1,26 +1,39 @@
-body {
-  font-family: sans-serif;
-  background: #f0f4f8;
-  text-align: center;
-  padding: 2rem;
-}
-
-input {
-  padding: 0.5rem;
-  font-size: 1rem;
-  margin-right: 1rem;
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f9;
 }
 
 button {
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
+  padding: 10px 20px;
+  font-size: 16px;
   cursor: pointer;
+  background-color: #9da09f;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #666b6b;
 }
 
 .weather {
-  margin-top: 2rem;
-  background: white;
-  padding: 1.5rem;
-  border-radius: 10px;
-  display: inline-block;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.fade-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; 
 }
